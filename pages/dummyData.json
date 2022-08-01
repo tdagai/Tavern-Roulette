@@ -1,0 +1,86 @@
+[
+  {
+    "cardId": "CORE_DRG_229",
+    "dbfId": "86545",
+    "name": "Bronze Explorer",
+    "cardSet": "Core",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 3,
+    "attack": 3,
+    "health": 3,
+    "text": "<b>Lifesteal</b>\\n<b>Battlecry:</b> <b>Discover</b> a Dragon.",
+    "flavor": "Always ready to explore new friendships! Except with Deathwing.",
+    "artist": "Max Grecke",
+    "collectible": true,
+    "race": "Dragon",
+    "playerClass": "Paladin",
+    "howToGet": "Unlocked at level 7.",
+    "howToGetGold": "Unlocked after winning 50 games as Paladin.",
+    "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7ceaa1c7fcbfa42c34b0d32fc29c89656e496930e571244894073a6e1cbf0c76.png",
+    "locale": "enUS",
+    "mechanics": [
+      {
+        "name": "Discover"
+      },
+      {
+        "name": "Battlecry"
+      },
+      {
+        "name": "Lifesteal"
+      }
+    ]
+  },
+  {
+    "cardId": "TSC_956",
+    "dbfId": "73442",
+    "name": "Dragged Below",
+    "cardSet": "Voyage to the Sunken City",
+    "type": "Spell",
+    "rarity": "Common",
+    "cost": 3,
+    "text": "[x]Deal $4 damage\\nto a minion.\\nGive your opponent\\nan Abyssal Curse.",
+    "flavor": "I know this is a frustrating situation you’re in, Captain, but there’s no need to curse.",
+    "artist": "Jason Kang",
+    "collectible": true,
+    "playerClass": "Warlock",
+    "spellSchool": "Shadow",
+    "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e6cb29e34e664e064f4ee8294c1274b7ac164258688cbb266f0b09c80f7229be.png",
+    "locale": "enUS"
+  },
+  {
+    "cardId": "TID_949",
+    "dbfId": "80117",
+    "name": "Front Lines",
+    "cardSet": "Voyage to the Sunken City",
+    "type": "Spell",
+    "rarity": "Epic",
+    "cost": 9,
+    "text": "[x]Summon a minion\\nfrom each player's deck.\\nRepeat until either side\\nof the battlefield is full.",
+    "flavor": "With the line in the sand crossed, the battle for the Throne of Tides had begun.",
+    "artist": "Daniil Kudriavtsev",
+    "collectible": true,
+    "playerClass": "Paladin",
+    "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/61938acf44f00da22d58db67ab54b7af7679a664ff221d40e6cabe8e373241f0.png",
+    "locale": "enUS"
+  },
+  {
+    "cardId": "TSC_054",
+    "dbfId": "72649",
+    "name": "Mecha-Shark",
+    "cardSet": "Voyage to the Sunken City",
+    "type": "Minion",
+    "rarity": "Common",
+    "cost": 3,
+    "attack": 4,
+    "health": 3,
+    "text": "[x]After you summon a Mech,\\ndeal 3 damage randomly\\n_split among all enemies.",
+    "flavor": "\"Why didn't you just build a normal submarine. Only you can fit inside\"\\n\"WhY DiDn'T YoU JuSt BuIlD anormalsub-WHY DO YOU THINK WREZIG!! If you can build a freaking Mecha-Shark, then you build a freaking Mecha-Shark!\"",
+    "artist": "Nicola Saviori",
+    "collectible": true,
+    "race": "Mech",
+    "playerClass": "Mage",
+    "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1fc46ab3e5ca37cdedbb17b8979a5ba96b3fa492a9951e45f70da03905e7f03e.png",
+    "locale": "enUS"
+  }
+]

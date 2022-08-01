@@ -1,3 +1,5 @@
+import styled from "styled-components";
+
 import ClassItem from "./ClassItem";
 import DemonHunterIcon from '../../public/classIcons/demon_hunter_64.png';
 import DruidIcon from '../../public/classIcons/druid_64.png';
@@ -9,7 +11,7 @@ import RogueIcon from '../../public/classIcons/rogue_64.png';
 import ShamanIcon from '../../public/classIcons/shaman_64.png';
 import WarlockIcon from '../../public/classIcons/warlock_64.png';
 import WarriorIcon from '../../public/classIcons/warrior_64.png';
-import NeutralIcon from '../../public/classIcons/neutral_48.png';
+import NeutralIcon from '../../public/classIcons/neutral_64.png';
 
 const ClassList = () => {
 
@@ -28,13 +30,17 @@ const ClassList = () => {
   ];
 
   return (
-    <>
+    <ClassListWrapper>
       {classData.map(({ title, imageSrc }) =>
         <ClassItem key={title} title={title} imageSrc={imageSrc} />)}
-    </>
+    </ClassListWrapper>
   );
-
 };
 
+const ClassListWrapper = styled.div`
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: .5rem;
+`;
 
 export default ClassList;

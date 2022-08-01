@@ -23,12 +23,12 @@ const ClassItemWrapper = styled.div<{ clicked: Boolean }>`
   display: flex;
   flex-direction: column;
   align-items: center;
-  filter: brightness(${({ clicked }) => clicked ? '50%' : '100%'});
+  opacity: ${({ clicked }) => clicked ? .25 : 1};
 `;
 
 const ClassImageWrapper = styled.div`
   &:hover {
-  opacity: .5;
+  filter: brightness(50%);
 }
 `;
 
