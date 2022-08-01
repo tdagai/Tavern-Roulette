@@ -1,11 +1,12 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 const axios = require('axios');
+import { API_KEY } from '../../secrets';
 
 const options = {
   method: 'GET',
   url: 'https://omgvamp-hearthstone-v1.p.rapidapi.com/cards',
   headers: {
-    'X-RapidAPI-Key': '67b783470fmsh090def8544d94d3p19b4dajsn7d8decdda89c',
+    'X-RapidAPI-Key': API_KEY,
     'X-RapidAPI-Host': 'omgvamp-hearthstone-v1.p.rapidapi.com'
   }
 };
