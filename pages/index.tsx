@@ -1,8 +1,10 @@
-import ClassItem from "./classes/classItem";
+import ClassList from "./classes/ClassList";
 
 const Home = () => {
   return (
-    <ClassItem />
+    <>
+      <ClassList />
+    </>
   )
 }
 

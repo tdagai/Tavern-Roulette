@@ -1,22 +1,19 @@
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import styled from 'styled-components';
 import { useState } from 'react';
 
-import classIcon from '../../public/classIcons/guldan_64.png';
+type ClassItemProps = {
+  title: string;
+  imageSrc: StaticImageData;
+};
 
-//Requirements:
-// class name
-// class hero image
-// clicking on image should turn draken/brighten the image
-
-const ClassItem = () => {
+const ClassItem = ({ title, imageSrc }: ClassItemProps) => {
   const [itemClicked, setItemClicked] = useState(false);
 
   return (
-    <ClassItemWrapper title="Warlock" clicked={itemClicked}>
-      <div>Warlock</div>
+    <ClassItemWrapper title={title} clicked={itemClicked}>
       <ClassImageWrapper onClick={() => setItemClicked(!itemClicked)}>
-        <Image src={classIcon} alt='warlock' />
+        <Image src={imageSrc} alt={`${title}-class-image`} />
       </ClassImageWrapper>
     </ClassItemWrapper>
   )
